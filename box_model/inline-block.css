@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* utility class */
+.bd-1 {
+  border: 1px solid #000;
+}
+
+.left {
+  width: 49.5%;
+  /* leidzia toje pacioje eiluteje buti keliems elementams
+  ir jie gali tureti ploti auksti, padding, margin
+  */
+  display: inline-block;
+}
+.right {
+  width: 49.5%;
+  display: inline-block;
+}
