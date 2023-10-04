@@ -12,6 +12,35 @@ body {
   border: 1px solid #000;
 }
 
+/* header css */
+.logo {
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.logo,
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav-ul {
+  padding-left: 0;
+  list-style: none;
+}
+.nav-li {
+  display: inline-block;
+}
+.nav-link {
+  /* nuimti numatytaji stiliu nuo nuorodu */
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid tomato;
+  background-color: rgb(196, 196, 196);
+  padding: 8px 16px;
+}
+
 .left {
   width: 49.5%;
   /* leidzia toje pacioje eiluteje buti keliems elementams
